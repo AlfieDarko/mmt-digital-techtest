@@ -3,6 +3,12 @@ import { Box, Flex, Text, Heading, Image, Stack, Icon, Button } from '@chakra-ui
 import { useProductBasket } from '../../context/context'
 const ProductCard = ({ imageSRC, title, description, price, quantity, id }) => {
   const [state, dispatch] = useProductBasket()
+
+  const onClickHandler = (event, id, changeInQuantity) => {
+    const newQuantity = getNewProductQuantity(state, id, changeInQuantity)
+    changeProductQuantity(id, newQuantity, dispatch)
+  }
+
   return (
     <Flex data-testid={`product-card-${id}`} >
       <Flex mb={8} pb={10} borderBottom="4px" borderStyle="dashed" borderColor="lightgrey">
