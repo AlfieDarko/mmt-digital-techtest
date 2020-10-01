@@ -65,18 +65,6 @@ describe('ViewBasket Integrational', () => {
   });
 
   describe.skip('GIVEN we want to clear our basket', () => {
-    it('SHOULD find our basket quantities are cleared after pressing the clear button ', () => {
-      customRender(
-        <ViewBasket />, { providerProps: initBasketState }
-      )
-      fireEvent.click(screen.getByTestId('increase-quantity-btn-drinkid1'))
-      fireEvent.click(screen.getByTestId('increase-quantity-btn-drinkid1'))
-      expect(screen.getByTestId('product-quantity-drinkid1').textContent).toBe("2")
-
-      fireEvent.click(screen.getByTestId('clear-btn'))
-      expect(screen.getByTestId('product-quantity-drinkid1').textContent).toBe("0")
-    });
-
     it('SHOULD find that the total price should be updated to its initial state of £0.00', () => {
       customRender(
         <ViewBasket />, { providerProps: initBasketState }

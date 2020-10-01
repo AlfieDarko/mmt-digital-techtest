@@ -1,7 +1,7 @@
-import React, { setState, useEffect } from 'react'
-import { Box, Flex, Stack, Text, Heading, Button } from '@chakra-ui/core'
+import React from 'react'
+import { Box, Flex, Text, Heading, Button } from '@chakra-ui/core'
 import { useProductBasket } from '../../context/context'
-import { priceFormatter, getTotalPrice } from '../../utils'
+import { getTotalPrice } from '../../utils'
 
 const PriceSummary = () => {
   const [state, dispatch] = useProductBasket()

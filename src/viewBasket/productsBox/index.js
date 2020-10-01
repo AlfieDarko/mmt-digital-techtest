@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductCard from '../productCard'
-import { Box, Flex, Stack, Text, Heading } from '@chakra-ui/core'
+import { Flex, Stack } from '@chakra-ui/core'
 import { useProductBasket } from '../../context/context'
 import { getProducts } from '../../context/selectors'
 

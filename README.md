@@ -79,6 +79,12 @@ Having worked on design systems at Tesco & Clearscore, I've learnt its best not 
   - Touched on more of the stretch goals.
   Thought about how to portray the information better on smaller devices.
   - skeleton or spinners for the basket item images.
+  - Tested for more sad paths ie, NaN types etc. 
+  Added an error boundary fallback UI for any issues. 
+  - Thought about how I would display errors to the user ie. wierd type bugs etc. 
+  - Used TypeScript for type safety. I was running behind on time as I was completing a project due today so I opted for delivery speed.
+  
+
 
   Thanks for reading.
 
