@@ -1,6 +1,11 @@
 import React from 'react'
 import { Box, Flex, Text, Heading, Image, Stack, Icon, Button } from '@chakra-ui/core'
 import { useProductBasket } from '../../context/context'
+import { changeProductQuantity } from '../../context/actions'
+import { getNewProductQuantity } from '../../context/selectors'
+import { priceFormatter } from '../../utils'
+import PropTypes from 'prop-types'
+
 const ProductCard = ({ imageSRC, title, description, price, quantity, id }) => {
   const [state, dispatch] = useProductBasket()
 
