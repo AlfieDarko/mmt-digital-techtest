@@ -1,5 +1,7 @@
 # Basket Techtest for MMT Digital
 
+Deployed > URL: [https://fe-test-ad.vercel.app/](https://fe-test-ad.vercel.app/)
+
 ### Available Scripts
 
 In the project directory, you can run:
@@ -69,7 +71,9 @@ I would find it innapropriate to bring in an extra dependency like Redux for suc
 
 ### Approach
 
-I kept my approach simple. The bulk of it is in 3 different components, the Price Summary, The Product Card, and the ProductsBox, which holds multiple product cards. I think going any granular than that may veer on overengineering. 
+I kept my approach simple. The bulk of the UI is in 3 different components, the Price Summary, The Product Card, and the ProductsBox, which holds multiple product cards. I think going any granular than that may veer on overengineering. 
+
+
 
 Having worked on design systems at Tesco & Clearscore, I've learnt its best not trying to predict the future when it comes to React Component code reuse to avoid bloating a codebase with unused stuff.  Do it when it's really obvious, or when there are clear signs of code repition & when data/info/context backs up your choiceto do so.
 
@@ -83,7 +87,11 @@ Having worked on design systems at Tesco & Clearscore, I've learnt its best not 
   Added an error boundary fallback UI for any issues. 
   - Thought about how I would display errors to the user ie. wierd type bugs etc. 
   - Used TypeScript for type safety. I was running behind on time as I was completing a project due today so I opted for delivery speed.
-  
+  - Fixed width for the quantity number.
+  - Allow users to input a quantity from keyboard
+  - Set a Max Quantity etc.
+  - Set The HTML Title in Head 😅
+
 
 
   Thanks for reading.
