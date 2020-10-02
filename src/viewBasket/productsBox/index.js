@@ -16,8 +16,8 @@ const ProductBox = () => {
     )
 
   return (
-    <Flex>
-      <Stack>
+    <Flex as="section">
+      <Stack as="ul">
         {renderProductCards()}
       </Stack>
     </Flex>
