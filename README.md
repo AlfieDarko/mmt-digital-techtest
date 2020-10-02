@@ -73,7 +73,7 @@ I would find it innapropriate to bring in an extra dependency like Redux for suc
 
 I kept my approach simple. The bulk of the UI is in 3 different components, the Price Summary, The Product Card, and the ProductsBox, which holds multiple product cards. I think going any granular than that may veer on overengineering. 
 
-
+Made sure colours met AAA standards and major accessibility issues were ironed out
 
 Having worked on design systems at Tesco & Clearscore, I've learnt its best not trying to predict the future when it comes to React Component code reuse to avoid bloating a codebase with unused stuff.  Do it when it's really obvious, or when there are clear signs of code repition & when data/info/context backs up your choiceto do so.
 

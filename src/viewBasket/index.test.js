@@ -21,8 +21,6 @@ const customRender = (ui, {
 describe('ViewBasket Integrational', () => {
 
   describe('GIVEN we have increased the quantity of one item ', () => {
-
-
     it('SHOULD find we are able to see the total price', () => {
       customRender(
         <ViewBasket />, { providerProps: initBasketState }
@@ -42,7 +40,6 @@ describe('ViewBasket Integrational', () => {
   });
 
   describe('GIVEN we have increased the price of two items', () => {
-
     it('SHOULD find we are able to see the total price change in real time', () => {
       customRender(
         <ViewBasket />, { providerProps: initBasketState }

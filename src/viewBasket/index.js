@@ -6,7 +6,7 @@ import ProductsBox from './productsBox'
 const ViewBasket = () => {
   return (
     <Flex justifyContent="center" pt={16} px={16} data-testid="view-basket" >
-      <Box >
+      <Box as="section" >
         <Heading as="h1" size="lg" mb={8}>
           Shopping Cart
         </Heading>
