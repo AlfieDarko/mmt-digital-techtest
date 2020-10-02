@@ -1,0 +1,2 @@
+export const CLEAR_BASKET = "CLEAR_BASKET"
+export const CHANGE_QUANTITY = "CHANGE_QUANTITY"
