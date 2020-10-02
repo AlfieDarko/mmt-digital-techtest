@@ -1,13 +1,14 @@
 import React from 'react'
 import { Flex, Heading, Text } from '@chakra-ui/core'
+import { SHIPPING } from '../constants'
 
 const ShippingPrice = ({ shippingPrice }) => {
   return (
     <>
       <Flex flexDirection="inherit" justifyContent="space-between">
         <Heading as="span" size="sm" >
-          Shipping:
-            </Heading>
+          {SHIPPING}
+        </Heading>
         <Text pl={32} as="span">{shippingPrice}</Text>
       </Flex>
     </>
