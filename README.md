@@ -79,6 +79,7 @@ Having worked on design systems at Tesco & Clearscore, I've learnt its best not 
 
 ### If I Had More Time
   - More extensive testing.
+  - Added snapshot tests for simpler sub components that I extracted out of the larger integrated component
   - DRY up some of the test code
   - Touched on more of the stretch goals.
   Thought about how to portray the information better on smaller devices.
