@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex, Text, Heading } from '@chakra-ui/core'
+import { Box, Flex, Heading } from '@chakra-ui/core'
 import PriceSummary from './priceSummary'
 import ProductsBox from './productsBox'
 

@@ -4,7 +4,7 @@ import { getTotalPrice } from '../../utils'
 import { useProductBasket } from '../../context/context'
 
 const TotalPrice = () => {
-  const [state, dispatch] = useProductBasket()
+  const [state] = useProductBasket()
 
   return (
     <>

@@ -1,4 +1,3 @@
-import React from 'react'
 import { initBasketState } from './initialState'
 
 export const productBasketReducer = (state, action) => {
