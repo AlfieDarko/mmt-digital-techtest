@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProdutInformation Should match snapshots 1`] = `
+<DocumentFragment>
+  <section
+    class="css-k008qs"
+    data-testid="price-summary"
+  >
+    <div
+      class="css-1bpae1b"
+    >
+      <h2
+        class="css-1jrokaa"
+      >
+        Summary
+      </h2>
+      <div
+        class="css-0"
+      >
+        <div
+          class="css-13rlfrq"
+          data-testid="total-amount"
+        >
+          <span
+            class="css-15619qa"
+          >
+            Total:
+          </span>
+          <span
+            class="css-f1b05"
+            data-testid="total-price"
+          >
+            £0.00
+          </span>
+        </div>
+        <div
+          class="css-13rlfrq"
+        >
+          <span
+            class="css-15619qa"
+          >
+            Shipping:
+          </span>
+          <span
+            class="css-grr4rk"
+          >
+            free
+          </span>
+        </div>
+      </div>
+      <div
+        class="css-cy9gus"
+      >
+        <button
+          class="css-u0mtjy"
+          data-testid="clear-btn"
+          type="button"
+        >
+          Clear
+        </button>
+        <button
+          class="css-1jweop2"
+          data-testid="checkout-btn"
+          type="button"
+        >
+          <p
+            class="css-84qp33"
+          >
+            Check Out &gt;
+          </p>
+        </button>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

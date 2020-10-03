@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShippingPrice Should match snapshots 1`] = `
+<DocumentFragment>
+  <div
+    class="css-13rlfrq"
+  >
+    <span
+      class="css-mgpenw"
+    >
+      Shipping:
+    </span>
+    <span
+      class="css-o3nqu6"
+    >
+      free
+    </span>
+  </div>
+</DocumentFragment>
+`;

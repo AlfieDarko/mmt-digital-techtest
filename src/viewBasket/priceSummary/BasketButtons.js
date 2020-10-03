@@ -2,9 +2,9 @@ import React from 'react'
 import { Flex, Text, Button } from '@chakra-ui/core'
 import { useProductBasket } from '../../context/context'
 import { CLEAR_BTN_TEXT, CHECKOUT_BTN_TEXT } from '../constants'
+
 const BasketButtons = () => {
   const [, dispatch] = useProductBasket()
-
   const clearOnClickHandler = () => {
     dispatch({ type: 'CLEAR_BASKET' })
   }

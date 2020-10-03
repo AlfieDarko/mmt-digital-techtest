@@ -6,7 +6,6 @@ import { ProductBasketProvider } from '../../context/provider'
 import { ThemeProvider } from '@chakra-ui/core'
 import { initBasketState } from '../../context/initialState'
 
-
 const customRender = (ui, {
   providerProps, ...renderOptions
 }) => {
@@ -24,7 +23,6 @@ describe('PriceSummary', () => {
     customRender(
       <PriceSummary />, { providerProps: initBasketState }
     )
-
     expect(screen.getByTestId('price-summary')).toBeInTheDocument()
   });
 
@@ -32,7 +30,6 @@ describe('PriceSummary', () => {
     customRender(
       <PriceSummary />, { providerProps: initBasketState }
     )
-
     expect(screen.getByTestId('total-price').textContent).toBe('£0.00')
   });
 
@@ -40,7 +37,6 @@ describe('PriceSummary', () => {
     customRender(
       <PriceSummary />, { providerProps: initBasketState }
     )
-
     expect(screen.getByTestId('clear-btn')).toBeInTheDocument()
     expect(screen.getByTestId('clear-btn').textContent).toBe("Clear")
 
@@ -50,10 +46,7 @@ describe('PriceSummary', () => {
     customRender(
       <PriceSummary />, { providerProps: initBasketState }
     )
-
     expect(screen.getByTestId('checkout-btn')).toBeInTheDocument()
     expect(screen.getByTestId('checkout-btn').textContent).toBe("Check Out >")
   });
 });
-
-// checkout-btn

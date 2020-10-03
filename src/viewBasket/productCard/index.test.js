@@ -3,7 +3,7 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import ProductCard from './index'
 import { ProductBasketProvider } from '../../context/provider'
-import { ThemeProvider, CSSReset } from '@chakra-ui/core'
+import { ThemeProvider } from '@chakra-ui/core'
 
 const customRender = (ui, {
   providerProps, ...renderOptions
